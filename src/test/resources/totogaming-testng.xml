@@ -1,0 +1,305 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Totogaming login test Suite">
+
+<test name="Login Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.login.TotoGamingLoginTest" />
+		</classes>
+	</test>
+
+	<test name="FalseLog Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.login.TotoGamingFalseLogTest" />
+		</classes>
+	</test>
+
+	<test name="Deposit Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingDepositTest" />
+		</classes>
+	</test>
+
+	<test name="Register Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGaminRegisterTest" />
+		</classes>
+	</test>
+
+	<test name="Belote Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingBeloteTest" />
+		</classes>
+	</test>
+
+	<test name="Registration Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingRegistrationTest" />
+		</classes>
+	</test>
+	
+	<test name="Casino Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingCasinoTest" />
+		</classes>
+	</test>
+	
+	<test name="Games Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingGamesTest" />
+		</classes>
+	</test>
+	
+	<test name="Penalty Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingPenaltyTest" />
+		</classes>
+	</test>
+	
+	<test name="DepositVisa Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingDepositVisaTest" />
+		</classes>
+	</test>
+	
+	<test name="LiveCasino Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingLiveCasinoTest" />
+		</classes>
+	</test>
+	
+	<test name="Rocketon Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingRocketonTest" />
+		</classes>
+	</test>
+	
+	<test name="TvGames Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGameingTvGamesTest" />
+		</classes>
+	</test>
+	
+	<test name="MyProfile Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingMyProfileTest" />
+		</classes>
+	</test>
+	
+	<test name="NetentLiveCasino Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingNetentLiveCasinoTest" />
+		</classes>
+	</test>
+	
+	<test name="TvBet Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingTvBetTest" />
+		</classes>
+	</test>
+	
+	<test name="EzugiLiveCasino Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingEzugiLiveCasinoTest" />
+		</classes>
+	</test>
+	
+	<test name="LuckyStreakLiveCasino Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingLuckyStreakLiveCasinoTest" />
+		</classes>
+	</test>
+	
+	<test name="OpenBelote Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingOpenBeloteTest" />
+		</classes>
+	</test>
+	
+	<test name="Messages Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingMessagesTest" />
+		</classes>
+	</test>
+	
+	<test name="Documents Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingDocumentsTest" />
+		</classes>
+	</test>
+	
+	<test name="GameHistory Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingGameHistoryTest" />
+		</classes>
+	</test>
+	
+	<test name="TournamentsHistory Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingTournamentsHistory" />
+		</classes>
+	</test>
+	
+	<test name="Notifications Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingNotificationsTest" />
+		</classes>
+	</test>
+	
+	<test name="Bonuses Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingBonusesTest" />
+		</classes>
+	</test>
+	
+	<test name="Transactions Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingTransactionsTest" />
+		</classes>
+	</test>
+	
+	<test name="Withdrawal Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingWithdrawalTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsNew Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsNewTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsNovomatic Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsNovomaticTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsPlayson Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsPlaysonTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsBelatra Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsBelatraTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsNetent Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsNetentTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsGameArt Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsGameArtTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsEndorphina Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsEndorphinaTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsBooongo Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsBooongoTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsIgrosoft Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsIgrosoftTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsPragmaticPlay Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsPragmaticPlayTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsMicrogaming Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsMicrogamingTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsPlatipus Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsPlatipusTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsBoomingGames Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsBoomingGamesTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsBetsoft Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsBetsoftTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsFugaso Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsFugasoTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsRedRake Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsRedRakeTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsHabanero Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsHabaneroTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsGenii Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsGeniiTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsEvoplayEntertainment Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsEvoplayEntertainmentTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsEgtEgyptQuestt Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsEgtEgyptQuestTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsWorldMatch Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsWorldMatchTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsElk Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsElkTest" />
+		</classes>
+	</test>
+	
+	<test name="SlotsIronDog Test">
+		<classes>
+			<class name="am.itu.qa.totogaming.menu.TotoGamingSlotsIronDogTest" />
+		</classes>
+	</test>
+		
+		
+</suite> 
