@@ -13,7 +13,7 @@ public class TotoGamingSlotsEvoplayEntertainmentPage extends TotoGamingBasePage{
 	}
 	
 	public final String SLOTS_EVOPLAY_ENTERTAINT_XPATH = "//div[@id='2138']";
-	public final String EVOPLAY_ENTERTAINT_PAGE = "//div[@class='tl_BG']";
+	public final String EVOPLAY_ENTERTAINT_PAGE = "//div[@id='2290']";
 	
 	@FindBy(xpath = SLOTS_EVOPLAY_ENTERTAINT_XPATH)
 	WebElement clickOnEvoplayEntertainmentButton;

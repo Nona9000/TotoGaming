@@ -13,7 +13,7 @@ public class TotoGamingSlotsBoomingGamesPage extends TotoGamingBasePage{
 	}
 	
 	public final String SLOTS_BOOMING_GAMES_XPATH = "//div[@id='2251']";
-	public final String BOOMING_GAMES_PAGE = "//div[@class='tl_BG']";
+	public final String BOOMING_GAMES_PAGE = "//div[@id='2290']";
 	
 	
 	@FindBy(xpath = SLOTS_BOOMING_GAMES_XPATH)
